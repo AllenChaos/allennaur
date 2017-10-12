@@ -14,8 +14,6 @@
 <div id="topDisplay">
     <!-- 用户头像显示区域 -->
     <div id="headView" class="displayFlag" alt="用户信息">
-        <!-- 测试使用图片，直接使用背景方便设置 -->
-        <!-- <img src="../image/head.jpg" width="120px" height="120px" /> -->
     </div>
     <div id="personInfo" class="displayFlag" >Allen Lee</div>
     <!-- 改区域通常为隐藏显示，当点击用户名或者头像会显示 -->
@@ -43,6 +41,10 @@
             <li>注销</li>
         </ul>
     </div>
+</div>
+<!-- 返回Top -->
+<div id="returnTop">
+    TOP
 </div>
 <!-- 中部显示区域 -->
 <div id="midArea">
