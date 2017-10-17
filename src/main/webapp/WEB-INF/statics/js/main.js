@@ -3,6 +3,7 @@ $(function(){
     var disFlag = false;
     // 判断顶部浮动区域的个人信息显示
     var disFlagFloat = false;
+    // 是否登录标记
     $("#personInfoArea").hide();
     $("#floatPersonInfoArea").hide();
     $("#topFloat").hide();
@@ -62,5 +63,9 @@ $(function(){
         }else{
             $("#returnTop").fadeOut();
         }
+    })
+    $("#fpSubmit").click(function(){
+        $("body").css("overflow","visible");
+        $("#firstPage").animate({top:"-1000px"},"slow","swing");
     })
 })

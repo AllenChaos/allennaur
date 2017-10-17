@@ -10,6 +10,16 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/allennaur1.ico" media="screen" />
 </head>
 <body>
+<!-- 进入首页显示界面 -->
+<div id="firstPage">
+    <div id="firstPageCenterArea">
+        <span style="width: 100%;font-weight: 200;">输入你的昵称即可进入...(测试阶段,可直接点击进入)</span>
+        <div id="fpMain" >
+            <input type="text" id="fpSearch" />
+            <button id="fpSubmit">进入听咯时空</button>
+        </div>
+    </div>
+</div>
 <!-- 顶部显示区域 -->
 <div id="topDisplay">
     <!-- 用户头像显示区域 -->
